@@ -200,6 +200,11 @@ public class Build {
         public static final String RELEASE = getString("ro.build.version.release");
 
         /**
+         * The user-visible cosmic version from the settings menu.
+         */
+        public static final String COSMIC_VERSION = getString("ro.cos.version");
+
+        /**
          * The base OS build the product is based on.
          */
         public static final String BASE_OS = SystemProperties.get("ro.build.version.base_os", "");
